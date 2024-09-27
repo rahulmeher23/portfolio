@@ -16,6 +16,7 @@ import {
   shopify,
 } from "../assets";
 import OpenFashion from "../assets/projects/OpenFashion.png"
+import Palindrome from "../assets/projects/Palindrome.png"
 
 import concira from "../assets/concira.png"
 
@@ -109,28 +110,6 @@ export const experiences = [
 
 export const projects = [
   {
-    name: "Paytm Clone",
-    description:
-      "Creating a Paytm clone using HTML, CSS, and Tailwind CSS involves building a responsive user interface that mimics Paytm's design.Implement key features like transaction cards and a payment form for a visually appealing.",
-    tags: [
-      {
-        name: "HTML5",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "CSS3",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: paytm,
-    source_code_link: "https://github.com/robinmahto/Paytm-Clone",
-    live_link: "https://paytm-clone-tailwindcss-16.netlify.app/"
-  },
-  {
     name: "Open Fashion",
     description:
       "Designed and developed a full-stack e-commerce web application with features like login, signup, wishlist, cart, and product browsing. Implemented RESTful APIs using ExpressJs, and utilized React with Redux for state management, styled with Tailwind CSS.",
@@ -153,9 +132,9 @@ export const projects = [
     live_link: "https://open-fashion-app.netlify.app/"
   },
   {
-    name: "Shopify Clone",
+    name: "Is Your Birthday Palindrome",
     description:
-      "Crafting a Shopify clone with HTML, CSS, and Tailwind CSS for a responsive and visually appealing online store interface. Utilize Tailwind CSS utility classes for rapid styling, and HTML for organizing product listings and cart functionalities.",
+      "Designed and developed a full-stack e-commerce web application with features like login, signup, wishlist, cart, and product browsing. Implemented RESTful APIs using ExpressJs, and utilized React with Redux for state management, styled with Tailwind CSS.",
     tags: [
       {
         name: "HTML5",
@@ -166,12 +145,12 @@ export const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: shopify,
-    source_code_link: "https://github.com/robinmahto/Shopify-Clone",
-    live_link: "https://shopify-clone-tailwindcss-18.netlify.app/"
+    image: Palindrome,
+    source_code_link: "https://github.com/rahulmeher23/mark13-Is-your-birthday-palindrome",
+    live_link: "https://your-birthday-is-palindrome-app.netlify.app/"
   },
 ];
